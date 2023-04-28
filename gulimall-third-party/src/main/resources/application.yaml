@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5tC8NitQqCfbhMAkCT9x
+      secret-key: LWKK3S61S46gd59wL83SYzNuFxhJ9z
+      oss:
+        endpoint: oss-cn-shenzhen.aliyuncs.com
+        bucket: gulimall-gqw
+      sms:
+        #        host: https://dfsns.market.alicloudapi.com
+        #        path: /data/send_sms
+        #        templateId: TPL_0000
+        accessKeyId: LTAI5tGF9MP4oGrUjzVnUja1
+        accessKeySecret: 0jGps80qKnmj3B1DIWLUxIaWsaoYjB
+
+server:
+  port: 30000
